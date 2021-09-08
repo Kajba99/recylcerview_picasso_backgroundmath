@@ -16,6 +16,13 @@
         android:layout_marginTop="15dp"
         android:layout_height="wrap_content"/>
 
+    <TextView
+        android:id="@+id/vrijednost2"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"/>
+
     <ImageView
         android:id="@+id/ivdetailed"
         android:layout_marginTop="20dp"

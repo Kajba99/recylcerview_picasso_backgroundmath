@@ -18,6 +18,7 @@ class HeroAdapter(val superhero:List<SuperHero>,private val onClickListener: onC
            view.tvRealName.text = superHero.realName
             view.tvPublisher.text = superHero.publisher
             view.tvSuperHeroName.text = superHero.superHeroName
+            view.vrijednost.text = superHero.vrijednost.toString()
             Picasso.get().load(superHero.image).into(view.ivHero)
 
         }
